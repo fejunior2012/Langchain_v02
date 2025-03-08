@@ -7,6 +7,8 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_openai import ChatOpenAI
 from langchain.chains import RetrievalQA
 
+
+# Não esqueça de criar o arquivo .env com a chave da OpenIA. OPENAI_API_KEY = "minha_chave_gerada_no_site"
 _ = load_dotenv()
 
 # 1. Carrega o nosson conjunto de dados através do CSVLoader
