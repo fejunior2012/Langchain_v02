@@ -42,6 +42,6 @@ chain = (
 # Pergunta e resposta
 print("Sugestão: Pergunte qual o ano de descobrimento do Brasil?")
 while True:
-    user_input = input("Eu: ")
+    user_input = input("Eu:")
     response = chain.invoke(user_input)
     print(response.content)
